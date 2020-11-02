@@ -7,23 +7,24 @@
   </head>
   <body>
     <form action="">
-      First Name: <input type="text" name="" id="" />
+      First Name: <input type="text" name="firstname" id="" />
       <br />
-      Last Name: <input type="text" name="" id="" />
+      Last Name: <input type="text" name="lastname" id="" />
       <br />
-      Email: <input type="email" name="" id="" required />
+      Email: <input type="email" name="email" id="" required />
       <br />
-      Password: <input type="password" name="" minlength="5" id="" /> <br />
-      Birthday: <input type="date" name="" id="" />
+      Password: <input type="password" name="password" minlength="5" id="" />
+      <br />
+      Birthday: <input type="date" name="birthday" id="" />
       <br />
       Gender: <br />
-      <input type="radio" name="gender" id="" />Male<br />
-      <input type="radio" name="gender" id="" />Female<br />
+      <input type="radio" name="gender" value="male" id="" />Male<br />
+      <input type="radio" name="gender" value="female" id="" />Female<br />
       Pets: <br />
-      <input type="checkbox" name="pets" id="" />Cats<br />
-      <input type="checkbox" name="pets" id="" />Dogs<br />
+      <input type="checkbox" name="cat" id="" />Cats<br />
+      <input type="checkbox" name="dog" id="" />Dogs<br />
       Cars: <br />
-      <select name="" id="">
+      <select name="cars" id="">
         <option value="volvo">Volvo</option>
         <option value="audi">Audi</option>
       </select>
@@ -33,3 +34,13 @@
     </form>
   </body>
 </html>
+
+<!-- ?
+firstname=fake
+&lastname=man
+&email=fake%40mail.com
+&password=126556156
+&birthday=2020-11-04
+&gender=on
+&cat=on&dog=on
+&cars=audi -->
