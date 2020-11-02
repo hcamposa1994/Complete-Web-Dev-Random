@@ -6,32 +6,35 @@
     <title>Register</title>
   </head>
   <body>
-    <form action="">
-      First Name: <input type="text" name="firstname" id="" />
-      <br />
-      Last Name: <input type="text" name="lastname" id="" />
-      <br />
-      Email: <input type="email" name="email" id="" required />
-      <br />
-      Password: <input type="password" name="password" minlength="5" id="" />
-      <br />
-      Birthday: <input type="date" name="birthday" id="" />
-      <br />
-      Gender: <br />
-      <input type="radio" name="gender" value="male" id="" />Male<br />
-      <input type="radio" name="gender" value="female" id="" />Female<br />
-      Pets: <br />
-      <input type="checkbox" name="cat" id="" />Cats<br />
-      <input type="checkbox" name="dog" id="" />Dogs<br />
-      Cars: <br />
-      <select name="cars" id="">
-        <option value="volvo">Volvo</option>
-        <option value="audi">Audi</option>
-      </select>
-      <br />
-      <input type="submit" value="Register" />
-      <input type="reset" value="Reset" />
-    </form>
+    <!-- Use GET, not POST -->
+    <div>
+      <form method="GET" action="">
+        <span>First Name:</span> <input type="text" name="firstname" id="" />
+        <br />
+        Last Name: <input type="text" name="lastname" id="" />
+        <br />
+        Email: <input type="email" name="email" id="" required />
+        <br />
+        Password: <input type="password" name="password" minlength="5" id="" />
+        <br />
+        Birthday: <input type="date" name="birthday" id="" />
+        <br />
+        Gender: <br />
+        <input type="radio" name="gender" value="male" id="" />Male<br />
+        <input type="radio" name="gender" value="female" id="" />Female<br />
+        Pets: <br />
+        <input type="checkbox" name="cat" id="" />Cats<br />
+        <input type="checkbox" name="dog" id="" />Dogs<br />
+        Cars: <br />
+        <select name="cars" id="">
+          <option value="volvo">Volvo</option>
+          <option value="audi">Audi</option>
+        </select>
+        <br />
+        <input type="submit" value="Register" />
+        <input type="reset" value="Reset" />
+      </form>
+    </div>
   </body>
 </html>
 
