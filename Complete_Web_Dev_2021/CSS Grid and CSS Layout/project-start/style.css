@@ -38,6 +38,13 @@ a {
   text-decoration: none;
 }
 
+@media only screen and (max-width: 600px) {
+  .main-nav {
+    font-size: 0.5em;
+    padding: 0;
+  }
+}
+
 .push {
   margin-left: auto;
 }
