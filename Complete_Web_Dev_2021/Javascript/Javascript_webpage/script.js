@@ -1,11 +1,6 @@
-4 + 3;
-
-if (4 + 3 === 7) {
-  console.log("Hello");
+function multiply(a, b) {
+  return a * b;
 }
 
-console.log("Hello");
-console.log("Hello");
-console.log("Hello");
-console.log("Hello");
-console.log("Hello");
+var total = multiply(4, 5);
+alert(total);
