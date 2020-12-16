@@ -1,6 +1,7 @@
-const c = require("./script2");
+// const c = require("./script2");
+import { largeNumber } from "./script2.js";
 
-const a = c.largeNumber;
+const a = largeNumber;
 const b = 5;
 
-console.log(__dirname);
+console.log(a + b);
