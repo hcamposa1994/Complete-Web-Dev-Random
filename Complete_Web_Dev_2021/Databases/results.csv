@@ -1,0 +1,4 @@
+id,first_name,last_name,gender,email,date_of_birth,country_of_birth,car_id,id,make,model,price
+2,Rick,Sanchez,Male,rick@gmail.com,2013-07-02,Egypt,1,1,GMC,Acadia,17622.69
+1,Sam,Iam,Male,samiam@suess.com,1953-10-20,Bolivia,2,2,Ford,Escape,21069.99
+3,Virgil,Scott,Female,virt@yahoo.com,1914-12-25,China,,,,,
